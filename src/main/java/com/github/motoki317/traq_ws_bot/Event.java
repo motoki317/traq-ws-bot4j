@@ -3,6 +3,8 @@ package com.github.motoki317.traq_ws_bot;
 import com.github.motoki317.traq_ws_bot.model.*;
 
 public enum Event {
+    ERROR(String.class), // only for WebSocket
+
     PING(PingEvent.class),
     JOINED(JoinedEvent.class),
     LEFT(LeftEvent.class),
