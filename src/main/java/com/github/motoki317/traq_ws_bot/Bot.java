@@ -122,7 +122,7 @@ public class Bot {
             elems.add(state.state());
             elems.add(state.sessionId());
         }
-        this.sendCommand(String.join(":", elems));
+        this.sendCommand(String.join(":", elems) + ":");
     }
 
     private void addHandler(String type, Consumer<JsonNode> h) {
