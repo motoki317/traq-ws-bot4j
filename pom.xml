@@ -87,8 +87,8 @@
     <properties>
         <maven.compiler.target>17</maven.compiler.target>
         <maven.compiler.source>17</maven.compiler.source>
-        <jackson.version>2.13.0</jackson.version>
-        <junit.jupiter.version>5.8.1</junit.jupiter.version>
+        <jackson.version>2.13.3</jackson.version>
+        <junit.jupiter.version>5.8.2</junit.jupiter.version>
         <github.global.server>github</github.global.server>
     </properties>
 
@@ -103,7 +103,7 @@
         <dependency>
             <groupId>com.github.motoki317</groupId>
             <artifactId>traq4j</artifactId>
-            <version>3.1.0</version>
+            <version>3.2.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
